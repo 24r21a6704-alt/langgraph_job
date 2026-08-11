@@ -21,7 +21,7 @@ from pypdf import PdfReader
 
 GOOGLE_API_KEY = (
     os.getenv("GOOGLE_API_KEY")
-    or os.getenv("GEMINI_API_KEY")
+    or os.getenv("GOOGLE_API_KEY")
     or os.getenv("GOOGLE_API")
 )
 
@@ -1228,7 +1228,7 @@ Give a short placement readiness report.
 # 18. START SERVER
 # ============================================================
 
-if _name_ == "_main_":
+if __name__ == "__main__":
 
     port = int(
         os.getenv(
