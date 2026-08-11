@@ -2,6 +2,11 @@ fastapi
 uvicorn[standard]
 pydantic
 langchain-core
+langchain
 langgraph
 langchain-google-genai
+langserve[server]
 google-generativeai
+pypdf
+requests
+python-multipart
