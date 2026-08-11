@@ -762,7 +762,7 @@ short placement-readiness analysis.
 <input
     type="text"
     id="github"
-    placeholder="Example: pranitha123"
+    placeholder="Example: Harika123"
 >
 
 
